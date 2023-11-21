@@ -1,88 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="responsive.css">
     <script src="https://kit.fontawesome.com/2f4ef5e35f.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
-
 <body>
-    <div class="hero-section">
-        <div class="hero-img">
-            <img src="./images/hero-bg.jpg" alt="" srcset="">
-        </div>
-        <header>
-            <nav>
-                <div class="nav-partone">
+    <header>
+        <nav>
+            <div class="nav-partone">
+                <div class="logo-container">
+                    <div class="logo"><a href="index.html">Logo</a></div>
+                </div>
+            </div>
+            <div class="nav-parttwo">
+                <div class="responsive-part">
+                    <div class="bar"><i class="fa-solid fa-bars"></i></div>
+                </div>
+                <div class="navbar-container">
+                    <div class="menu-container">
+                        <ul>
+                            <li class="list"><a href="index.html">HOME</a></li>
+                            <li class="list"><a href="Menu.html">MENU</a></li>
+                            <li class="list"><a href="About.html">ABOUT</a></li>
+                            <li class="list"><a href="Booktable.html">BOOK TABLE</a></li>
+                        </ul>
+                    </div>
                     <div class="logo-container">
-                        <div class="logo"><a href="index.html">Logo</a></div>
+                        <ul>
+                            <li class="list"><i class="fa-solid fa-user"></i></li>
+                            <li class="list"><i class="fa-solid fa-cart-shopping"></i></li>
+                            <li class="list"><i class="fa-solid fa-magnifying-glass"></i></li>
+                        </ul>
                     </div>
-                </div>
-                <div class="nav-parttwo">
-                    <div class="responsive-part">
-                        <div class="bar"><i class="fa-solid fa-bars"></i></div>
-                    </div>
-                    <div class="navbar-container">
-                        <div class="menu-container">
-                            <ul>
-                                <li class="list"><a href="index.html">HOME</a></li>
-                                <li class="list"><a href="Menu.html">MENU</a></li>
-                                <li class="list"><a href="About.html">ABOUT</a></li>
-                                <li class="list"><a href="Booktable.html">BOOK TABLE</a></li>
-                            </ul>
-                        </div>
-                        <div class="logo-container">
-                            <ul>
-                                <li class="list"><i class="fa-solid fa-user"></i></li>
-                                <li class="list"><i class="fa-solid fa-cart-shopping"></i></li>
-                                <li class="list"><i class="fa-solid fa-magnifying-glass"></i></li>
-                            </ul>
-                        </div>
-                        <div class="btn-container">
-                            <button id="btn_order">Order Online</button>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-        </header>
-    </div>
-    <main>
-        <section class="specal-items">
-            <div class="burger-card bp-card ">
-                <div class="part-one">
-                    <div class="b-img">
-                        <img class="imgs" src="./images/o1.jpg" alt="">
-                    </div>
-                </div>
-                <div class="part-two">
-                    <div class="line-one">Burger Days</div>
-                    <div class="line-two">20% <span class="small-text">off</span></div>
                     <div class="btn-container">
-                        <button id="btn_order">Order Online <i class="fa-solid fa-cart-shopping"></i></button>
+                        <button id="btn_order">Order Online</button>
                     </div>
                 </div>
             </div>
-            <div class="pizza-card bp-card">
-                <div class="part-one">
-                    <div class="b-img">
-                        <img class="imgs" src="./images/o2.jpg" alt="">
-                    </div>
-                </div>
-                <div class="part-two">
-                    <div class="line-one">Pizza Days</div>
-                    <div class="line-two">15% <span class="small-text">off</span></div>
-                    <div class="btn-container">
-                        <button id="btn_order">Order Online <i class="fa-solid fa-cart-shopping"></i></button>
-                    </div>
-                </div>
-            </div>
-        </section>
+        </nav>
+    </header>
+    <main style="margin-top: 80px;">
         <section class="menu-box">
             <div class="box-heading">
                 <h2>Our Menu</h2>
@@ -236,73 +196,12 @@
                 </div>
             </div>
         </section>
-        <section class="about-container">
-            <div class="about-box">
-                <div class="about-imgbox">
-                    <img class="about-img" src="./images/about-img.png" alt="">
-                </div>
-                <div class="about-textbox">
-                    <div class="about-text">
-                        <div class="text-line1">
-                            <h3>We Are Feane</h3>
-                        </div>
-                        <div class="text-line2">
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                                suffered alteration in some form, by injected humour, or randomised words which don't
-                                look even slightly believable. If you are going to use a passage of Lorem Ipsum, you
-                                need to be sure there isn't anything embarrassing hidden in the middle of text. All</p>
-                        </div>
-                        <div class="about-btn">
-                            <div class="btn-container">
-                                <button id="btn_order">Read More</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="booktable-section">
-            <div class="booktable-heading">
-                <h3>Book A Table</h3>
-            </div>
-            <div class="form-container">
-                <form name="bookingform">
-                    <div class="name-label stylelabel">
-                        <input type="text" name="name" id="applicant_name" class="styleinput" placeholder="Your Name">
-                    </div>
-                    <div class="phone-label stylelabel">
-                        <input type="text" name="phone" id="applicant_phone" class="styleinput"
-                            placeholder="phone Number">
-                    </div>
-                    <div class="email-label stylelabel">
-                        <input type="email" name="email" id="applicant_email" class="styleinput"
-                            placeholder="Your Name">
-                    </div>
-                    <div class="countperson-label stylelabel">
-                        <select id="countperson" class="styleinput">
-                            <option value="1" selected>How many Person?</option>
-                            <option value="2">2</option>
-                            <option value="4">4</option>
-                            <option value="6">6</option>
-                            <option value="8">8</option>
-                            <option value="10">10</option>
-                        </select>
-                    </div>
-                    <div class="date-label stylelabel">
-                        <input type="date" name="date" id="applicant_date" class="styleinput">
-                    </div>
-                    <div class="btn-container" style="margin: 35px;">
-                        <button id="btn_order">Book Now</button>
-                    </div>
-                </form>
-            </div>
-        </section>
     </main>
     <footer>
         <div class="footer-container">
             <div class="contact-part footer">
                 <h3>Contact Us</h3>
-                <p class="forhover"><i class="fa-solid fa-location-dot"></i> Location</p>
+                <p class="forhover"><i class="fa-solid fa-location-dot"></i>Location</p>
                 <p class="forhover"><i class="fa-solid fa-phone"></i> Call +91 8963342090</p>
                 <p class="forhover"><i class="fa-solid fa-envelope"></i> resturent@gmail.com </p>
             </div>
@@ -319,7 +218,7 @@
         </div>
         <div class="footer-icon">
             <ul>
-                <li class="footer-social"><i class="fa-brands fa-facebook-f"></i></li>
+                <li class="footer-social"><i class="fa-brands fa-facebook"></i></li>
                 <li class="footer-social"><i class="fa-brands fa-x-twitter"></i></li>
                 <li class="footer-social"><i class="fa-brands fa-linkedin"></i></li>
                 <li class="footer-social"><i class="fa-brands fa-instagram"></i></li>
@@ -334,10 +233,5 @@
             </div>
         </div>
     </footer>
-
-    <script>
-
-    </script>
 </body>
-
 </html>

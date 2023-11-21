@@ -1,0 +1,389 @@
+body{
+   margin: 0;
+   font-family: sans-serif;
+   overflow-x: hidden;
+}
+
+/* Hero section start here */
+.hero-section{
+    min-height: 100vh;
+}
+.hero-img{
+    width: 100%;
+}
+.hero-img > img{
+    width: 100%;
+}
+
+
+header{
+    position: absolute;
+    width: 100%;
+    top: 0; 
+    color: #fff; 
+    font-weight: 400;
+    font-size: 1.1rem;  
+    padding-top: 1vw;
+    background-color: #121416;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.responsive-part{
+    display: none;
+}
+
+
+.nav-partone , .nav-parttwo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-partone{
+    width: 25%;
+}
+.nav-parttwo{
+    width: 75%;
+}
+.logo > a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+ul > .list{
+    padding-left: 2vw;
+    cursor: pointer;
+}
+.list >a{
+    text-decoration: none;
+    color: #fff;
+}
+.list:hover,.list > a:hover{
+    color: #ffc107;
+}
+
+
+.btn-container{
+    margin-left: 5vw;
+    width: 9vw;
+    height: 6vh;
+}
+#btn_order{
+    width: 100%;
+    height: 100%;
+    background-color: #ffc107;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 25px;
+}
+#btn_order:hover{
+    background-color: #94730f;
+}
+
+/* Hero section end here */
+
+/* main section start here */
+
+/* first section start here */
+
+.specal-items{
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.burger-card,.pizza-card{
+    background-color: #222831;
+    height: 60%;
+    width: 43vw;
+}
+.bp-card{
+    display: flex;
+}
+.part-one{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.b-img{
+    width: 65%;
+    height: 75%;
+    border-radius: 100px;
+}
+.imgs{
+    max-width: 100%;
+    border-radius: 100%;
+}
+.part-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1.2vh;
+    color: #fff;
+}
+.line-one{
+    font-size: 1.5rem;
+}
+.line-two{
+    font-size: 2rem;
+}
+.small-text{
+    font-size: 1rem;
+}
+
+/* first section end here */
+ /* Second Section start here */
+ 
+ .box-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+.box-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-list{
+    padding: 4vw;
+    padding-top: 2vw;
+    cursor: pointer;
+}
+.box-list:active{
+    /* border: 1vw solid #222831; */
+    background-color: #222831;
+    color: #fff;
+}
+
+.menu-itemsbox{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.items-box{
+    width: 350px;
+    height: 441px;
+    background-color: #222831;
+    border: none;
+    border-radius: 15px;
+    margin: 10px;
+    overflow: hidden;
+}
+.items-img{
+    width: 100%;
+    height: 50%;
+    background-color: #f1f2f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 50px;
+}
+.img-box{
+    width: 50%;
+    height: 60%;
+}
+.food-img{
+    max-width: 100%;
+}
+
+.about-dish{
+    width: 100%;
+    height: 50%;
+    color: #fff;   
+}
+.info-container{
+    margin: 10px 17px 10px 17px;
+}
+.dish-heading{
+    font-size: 1.5rem;
+}
+
+.dish-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dish-cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3vw;
+    height: 6vh;
+    background-color: #ffc107;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.viewmore-btn{
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ /* second section end here */
+
+ /* third section start here */
+
+.about-container{
+    width: 100%;
+    height: 100vh;
+    background-color: #222831;
+}
+.about-box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-imgbox{
+    width: 90vw;
+    height: 90%;
+    margin: 100px;
+}
+.about-img{
+    height: 100%;
+    background-color: #222831;
+}
+
+.about-textbox{
+    width: 100%;
+    height: 90%;
+    margin: 100px;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+.text-line1 > h3{
+    font-size: 2rem;
+}
+
+ /* third section ed here */
+
+ /* booking section start here */
+
+ .booktable-section{
+    width: 100%;
+    height: 100vh;
+    padding: 70px;
+ }
+ .booktable-heading{
+    width: 25%;
+    height: 9vh;
+ }
+ .booktable-heading > h3{
+    font-size: 2.5rem;
+ }
+
+ .form-container{
+    width: 50%;
+    height: 80%;
+    padding: 15px 20px 15px 20px;
+ }
+form{
+    width: 90%;
+    height: 90%;
+    padding: 15px 20px 15px 20px;
+ }
+ .stylelabel{
+    width: 90%;
+    height: 6vh;
+    margin:35px;
+ }
+ .styleinput{
+    width: 100%;
+    height: 100%;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+
+ }
+
+
+ /* booking section end here */
+
+/* main section end here */
+
+/* footer start here */
+
+footer{
+    background-color: #222831;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contact-part{
+    margin: 10px 15px 10px 15px;
+    width: 30vw;
+    height: 35vh;
+    text-align: center;
+}
+.contact-part > h3{
+    font-size: 1.5rem;
+}
+.forhover:hover{
+    cursor: pointer;
+    color: #ffc107;
+}
+
+.footer-icon{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1.4rem;
+}
+.footer-social{
+    padding-left: 20px;
+    
+}
+.fa-facebook-f,.fa-x-twitter,.fa-linkedin,.fa-instagram{
+    border: 15px solid #fff;
+    border-radius: 100%;
+    background-color: #fff;
+    color: #222831;
+}
+.footer-copyright{
+    text-align: center;
+}
+.copyright-line1,.copyright-line2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* footer end here */ 
+
+
